@@ -6,3 +6,4 @@ app.yaml
 yarn.lock
 docs
 LICENSE
+.publish
