@@ -1,8 +1,8 @@
-**EMcGoff Web**
+**EMcG Web**
 
 ## Overview
 
-This application been scaffolded using the [Web Starter Kit](https://developers.google.com/web/tools/starter-kit/).
+This application has been scaffolded using the [Web Starter Kit](https://developers.google.com/web/tools/starter-kit/).
 
 [Material Design Lite](http://getmdl.io) has been replaced with [Material](https://material.io/) and [Webpack](https://webpack.github.io/) has been added as module bundler.
 
