@@ -211,3 +211,47 @@ html, body {
 .mdl-demo .mdl-menu__container {
   z-index: 99;
 }
+
+.mdc-toolbar-demo {
+  margin: 0px;
+}
+.mdc-toolbar__row:first-child::after {
+  background-image: url("../images/books-bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+  filter: blur(1px);
+}
+.demo-paragraph {
+  margin: 0px;
+  padding: 20px 28px;
+}
+@media (max-width: 599px) {
+  .demo-paragraph {
+    padding: 16px;
+  }
+}
+footer {
+  /*position: fixed;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  color: red;
+  background-color: rgba(0, 0, 0, 0.8);*/
+}
+
+.mdc-toolbar__title--space-letters {
+  letter-spacing: 6px !important;
+  /*font-size: 3rem !important;*/
+  background-image: url(../images/logo-trans-small.png);
+  background-size: cover;
+  background-position: bottom;
+  height: 80px;
+  width: 160px;
+}
+
+.mdc-toolbar__title--logo {
+  background-image: url("../images/logo-trans-small.png");
+  background-size: cover;
+  background-position: bottom;
+  height: 80px;
+}
